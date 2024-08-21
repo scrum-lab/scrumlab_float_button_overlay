@@ -1,3 +1,6 @@
+## 1.2.1
+* Android package adjusts
+
 ## 1.2.0
 * NullSafety version
 
