@@ -1,0 +1,23 @@
+name: scrumlab_float_button_overlay
+description: A Flutter plugin to keep app service background visible like a Float Action Button
+version: 1.2.0
+homepage: https://github.com/scrum-lab/scrumlab_float_button_overlay
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: br.com.scrumlab.scrumlab_float_button_overlay
+        pluginClass: ScrumlabFloatButtonOverlayPlugin 
